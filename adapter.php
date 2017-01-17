@@ -1,5 +1,12 @@
 <?php
-
+/*
+ * Pattern Adapter là gì?
+  Mẫu adapter chuyển đổi giao diện thành một giao diện khác mà phù hợp với yêu cầu. Giúp kết nối các lớp có giao diện không tương thích để làm việc với nhau
+  Dùng nó trong trường hợp nào?
+  Khi ta muốn chuyển đổi một lớp với một giao diện thành giao diện mà ta mong muốn.
+  Xậy dựng, mở rộng các phương thức của lớp có sẵn phù hợp với yêu cầu.
+  Tái sử dụng giao diện cũ. Giảm thiểu việc viết lại mã lệnh.
+ * */
 interface IShowName
 {
 
