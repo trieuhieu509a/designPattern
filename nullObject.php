@@ -9,7 +9,6 @@ Null Object Design Pattern là gì?
 Nó cung cấp một null object để thay thế cho trường hợp một instance bị NULL.
 Thay vì sử dụng một lệnh IF để check một null value, Null Object sẽ phản ánh một mối liên hệ không phải thực hiện - không làm gì cả.
  */
-
 class Service
 {
   /**
@@ -60,11 +59,11 @@ class NullLogger implements LoggerInterface
 }
 
 
-$service = new Service(new NullLogger());
-$service->doSomething();
+    $service = new Service(new NullLogger());
+    $service->doSomething();
 
 
-$service = new Service(new PrintLogger());
-$service->doSomething();
+    $service = new Service(new PrintLogger());
+    $service->doSomething();
 
 ?>
