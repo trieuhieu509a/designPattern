@@ -1,3 +1,4 @@
+<img src="./state_pattern_uml_diagram.jpg" alt="">
 <?php
 /**
  * Hướng dẫn Java Design Pattern - State Pattern
@@ -102,3 +103,4 @@ class StatePatternDemo
   }
 }
 
+StatePatternDemo::main(null);
